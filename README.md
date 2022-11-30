@@ -3,28 +3,33 @@
 
 ![image1](images/image1.png)
 ## *Module 14, Challenge -  Data Science & Machine Learning - Algoritmic Trading, Supervised MachineLearning*
-Objective - Compile and Evaluate a Binary Classification Model using a Neural Network that predicts if applicants will be successful if funded through venture capital firm. 
+Objective - improve existing algorithmic trading system such that a competitive 'edge' is maintained in the market through creation of an algorithmic trading model that learns and adapts to new data and evolving markets.
 
-Scenario - Given a historical dataset CSV file containing more than 34,000 organizations that have received funding, employ neural network knowledge to evaluate dataset features and create a binary classifier model that will predict an applicant will become a successful or failed business.  
+Scenario - Given a historical dataset CSV file, employ supervised machine learning modeling to evaluate dataset features and create an algorithmic trading model that learns and adapts to new data, improving on existing algorithmic trading system such that a competitive advantage is maintained.  
 
 Product - Jupyter notebook with -
 
-* > Data preprocessing for a neural network model.
-* > binary classification model using a deep neural network.
+* > Data preprocessing for a machine learning model.
+* > an algorithmic trading strategy that uses machine learning to automate the trade decisions.
 * > Utilize model-fit-predict pattern to compile and evaluate.
-* > Model optimization.
+* > Model optimization through input parameter adjustments.
+* > Provide a new machine learning model with report demonstrating comparison performance to that of a baseline model
 
 ---
 ## **Methods**
 ![image2](images/image2.png)
 ### The code script analysis performed uses or employs applications of:
 
-    Data encoding with OneHotEncoder, 
-    train_test_split(),
     Feature Scaling with StandardScaler,
-    keras.callbacks.EarlyStopping(),
-    keras.callbacks.ModelCheckpoint(),
-
+    support vector machine (SVM) learning method,
+    logistic regression (LogisticRegression) modeling,
+    KNeighborsClassifier analysis modeling,
+    confusion matrices,
+    balanced_accuracy scores,
+    imbalanced classification reports,
+    HV plot,
+    seaborn heatmaps
+    
 ---
 ## **Technologies**
 ---
@@ -39,15 +44,37 @@ This project leverages Jupyter Lab v3.4.4 and Python version 3.9.13 packaged by 
 
 * [pandas](https://pandas.pydata.org/docs/) - software library written for the python programming language for data manipulation and analysis.
 
+* [Scikit-learn](https://scikit-learn.org/stable/getting_started.html) - an open source machine learning library that supports supervised and unsupervised learning; provides various tools for model fitting, data preprocessing, model selection, model evaluation, and many other utilities.
+
 * [Path](https://pandas.pydata.org/docs/reference/api/pandas.concat.html) - from pathlib - Object-oriented filesystem paths, Path instantiates a concrete path for the platform the code is running on.
 
-* [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) - from sklearn.model_selection, a quick utility that wraps input validation and next(ShuffleSplit().split(X, y)) and application to input data into a single call for splitting (and optionally subsampling) data in a oneliner.
+* [DateOffset](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.tseries.offsets.DateOffset.html) - from pandas - sttandard kind of date increment used for a date range.
 
-* [OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) - from sklearn.preprocessing, encode categorical features as a one-hot numeric array. Features are encoded using a one-hot (aka ‘one-of-K’ or ‘dummy’) encoding scheme; creates a binary column for each category and returns a sparse matrix or dense array.
+* [confusion_matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html) - from sklearn.metrics, computes confusion matrix to evaluate the accuracy of a classification; confusion matrix *C* is such that *Cij* is equal to the number of observations known to be in group *i* and predicted to be in group *j*.
+
+* [balanced_accuracy_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html) - from sklearn.metrics, compute the balanced accuracy in binary and multiclass classification problems to deal with imbalanced datasets; defined as the average of recall obtained on each class.
+
+* [f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html) - from sklearn.metrics, computes the F1 score, also known as balanced F-score or F-measure; can be interpreted as a harmonic mean of the precision and recall, where an F1 score reaches its best value at 1 and worst score at 0.
+
+* [classification_report_imbalanced](https://glemaitre.github.io/imbalanced-learn/generated/imblearn.metrics.classification_report_imbalanced.html) - from imblearn.metrics, compiles the metrics: precision/recall/specificity, geometric mean, and index balanced accuracy of the geometric mean.
+
+* [SVMs](https://scikit-learn.org/stable/modules/svm.html) - from scikit-learn, support vector machines (SVMs) are a set of supervised learning methods used for classification, regression and outliers detection.
+
+* [LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) - from sklearn.linear_model, a Logistic Regression (aka logit, MaxEnt) classifier; implements regularized logistic regression using the ‘liblinear’ library, ‘newton-cg’, ‘sag’, ‘saga’ and ‘lbfgs’ solvers - regularization is applied by default.
+
+* [AdaBoostClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html) - from sklearn.ensemble, a meta-estimator that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset but where the weights of incorrectly classified instances are adjusted such that subsequent classifiers focus more on difficult cases.
+
+* [KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) - from sklearn.neighbors, a classifier implementing the k-nearest neighbors vote.
 
 * [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) - from sklearn.preprocessing, standardize features by removing the mean and scaling to unit variance.
 
+* [hvplot](https://hvplot.holoviz.org/getting_started/hvplot.html) - provides a high-level plotting API built on HoloViews that provides a general and consistent API for plotting data into numerous formats listed within linked documentation.
+
 * [matplotlib.pyplot](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html) a state-based interface to matplotlib. It provides an implicit, MATLAB-like, way of plotting. It also opens figures on your screen, and acts as the figure GUI manager
+
+* [Seaborn](https://seaborn.pydata.org/tutorial/introduction) a library for making statistical graphics in Python. It builds on top of matplotlib and integrates closely with pandas data structures.
+
+* [pickle](https://docs.python.org/3/library/pickle.html) Python object serialization; module implements binary protocols for serializing and de-serializing a Python object structure. “Pickling” is the process whereby a Python object hierarchy is converted into a byte stream, and “unpickling” is the inverse operation.
 
 ___
 
@@ -163,6 +190,8 @@ ___
 [Stack Overflow](https://stackoverflow.com/questions/54116693/modulenotfounderror-no-module-named-seaborn-in-python-ide)
 
 [Stack Overflow](https://stackoverflow.com/questions/43162506/undefinedmetricwarning-f-score-is-ill-defined-and-being-set-to-0-0-in-labels-wi)
+
+[StackAbuse](https://stackabuse.com/scikit-learn-save-and-restore-models/)
 
 [Seaborn](https://seaborn.pydata.org/installing.html)
 
