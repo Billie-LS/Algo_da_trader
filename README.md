@@ -25,43 +25,6 @@ Product - Jupyter notebook with -
     keras.callbacks.EarlyStopping(),
     keras.callbacks.ModelCheckpoint(),
 
-___
-## Challenge - Modeling & Analysis
-### Original 
-
-
-![image3](images/image3.png)
-
-___
-
-## Challenge - Modeling & Analysis
-### Optimization 
-
-![image4](images/image4.png)
-![image7](images/image7.png)
-![image5](images/image5.png)
-![image6](images/image6.png)
-
-
-![image8](images/image8.png)
-![image9](images/image9.png)
-![image10](images/image10.png)
-
-
-![image11](images/image11.png)
-![image12](images/image12.png)
-![image13](images/image13.png)
-
-
-___
-
-
-## Supplemental Modeling and Analysis
-
-Supplemental processing and analysis:
-
-Beyond the scope of the assignment, the author sought to conduct additional analysis of the data obtained; supplemental material script with model building follows the primary challenge. Additionally, supplemetal experimental notebooks are included.
-
 ---
 ## **Technologies**
 ---
@@ -93,7 +56,7 @@ ___
 MacBook Pro (16-inch, 2021)
 
     Chip Appple M1 Max
-    macOS Monterey version 12.6
+    macOS Venture version 13.0.1
 
 ### **Development Software**
 
@@ -104,11 +67,10 @@ Homebrew 3.6.11
 
 Python Platform: macOS-13.0.1-arm64-arm-64bit
 
-    Python version 3.9.13 packaged by conda-forge
+    Python version 3.9.15 packaged by conda-forge | (main, Nov 22 2022, 08:52:10)
     Scikit-Learn 1.1.3
-    Tensor Flow Version: 2.10.0
-    Keras Version: 2.10.0
     pandas 1.5.1
+    Numpy 1.21.5
 
 pip 22.3 from /opt/anaconda3/lib/python3.9/site-packages/pip (python 3.9)
 
@@ -121,7 +83,7 @@ git version 2.37.2
  In the terminal, navigate to directory where you want to install this application from the repository and enter the following command
 
 ```python
-git clone git@github.com:Billie-LS/DeepL_Adventure_Angels.git
+git clone git@github.com:Billie-LS/Algo_da_trader.git
 ```
 
 ---
@@ -136,7 +98,7 @@ From terminal, the installed application is run through jupyter lab web-based in
 The file you will run is:
 
 ```python
-credit_risk_resampling.ipynb
+machine_learning_trading_bot.ipynb
 
 ```
 
@@ -151,10 +113,10 @@ ___
 Version control can be reviewed at:
 
 ```python
-https://github.com/Billie-LS/DeepL_Adventure_Angels
+https://github.com/Billie-LS/Algo_da_trader
 ```
 
-[repository](https://github.com/Billie-LS/DeepL_Adventure_Angels)
+[repository](https://github.com/Billie-LS/Algo_da_trader)
 
 
 ___
@@ -188,56 +150,23 @@ Santiago Pedemonte
     [@GitHub](https://github.com/Santiago-Pedemonte)
 
 
-### **BootCamp classmates**
-
-None
-
-### **askBCS assistants**
-
-None
-
-
-
 ___
 
 ### **Additional references and or resources utilized**
 
-[Keras](https://keras.io/guides/keras_tuner/getting_started/)
+[GitHub](https://github.com/Billie-LS/DeepL_Adventure_Angels)
 
-[Keras](https://keras.io/api/callbacks/model_checkpoint/)
+[GitHub](https://github.com/Billie-LS/give_me_cred/blob/main/credit_risk_resampling.ipynb)
 
-[pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.values.html)
+[Stack Overflow](https://stackoverflow.com/questions/38338822/why-do-we-import-scikit-learn-with-sklearn)
 
-[pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html#pandas.DataFrame.to_numpy)
+[Stack Overflow](https://stackoverflow.com/questions/54116693/modulenotfounderror-no-module-named-seaborn-in-python-ide)
 
-[PredictiveHacks](https://predictivehacks.com/how-to-prevent-overfitting-in-neural-networks-with-tensorflow-2-0/)
+[Stack Overflow](https://stackoverflow.com/questions/43162506/undefinedmetricwarning-f-score-is-ill-defined-and-being-set-to-0-0-in-labels-wi)
 
-[Stack Overflow](https://stackoverflow.com/questions/51731207/python-neural-network-typeerror-history-object-is-not-subscriptable)
+[Seaborn](https://seaborn.pydata.org/installing.html)
 
-[Stack Overflow](https://stackoverflow.com/questions/51293196/attributeerror-numpy-ndarray-object-has-no-attribute-drop)
-
-[Stack Overflow](https://stackoverflow.com/questions/61742556/valueerror-shapes-none-1-and-none-2-are-incompatible)
-
-[PredictiveHacks](https://predictivehacks.com/how-to-prevent-overfitting-in-neural-networks-with-tensorflow-2-0/)
-
-[TensorFlow](https://www.tensorflow.org/api_docs/python/tf/train/Checkpoint#restorefor)
-
-[TensorFlow](https://www.tensorflow.org/api_docs/python/tf/keras/activations)
-
-
-[GitHub](https://github.com/christianversloot/machine-learning-articles/blob/main/automating-neural-network-configuration-with-keras-tuner.md)
-
-[GitHub](https://github.com/christianversloot/machine-learning-articles/blob/main/automating-neural-network-configuration-with-keras-tuner.md)
-
-[GitHub](https://github.com/kirpa1986/FinTech-Projects/tree/0f516333ff7acadfd6f63e7c3069dd72f9da5095/Module%2013%20Challenge%20-%20Venture%20Funding%20with%20Deep%20Learning)
-
-
-[Stack Overflow](https://)
-
-[Stack Overflow](https://)
-
-*For something other analysis-*
-[GitHub](https://)
+[scikitlearn](https://scikit-learn.org/stable/modules/ensemble.html?highlight=classifier)
 
 ___
 ## **License**
