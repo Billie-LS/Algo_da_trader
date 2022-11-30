@@ -29,6 +29,7 @@ Product - Jupyter notebook with -
     imbalanced classification reports,
     HV plot,
     seaborn heatmaps
+    pickle
     
 ---
 ## **Technologies**
@@ -125,7 +126,7 @@ From terminal, the installed application is run through jupyter lab web-based in
 The file you will run is:
 
 ```python
-machine_learning_trading_bot.ipynb
+machine_learning_trading_algo.ipynb
 
 ```
 
@@ -161,13 +162,6 @@ Loki 'billie' Skylizard
 Vinicio De Sola
     [LinkedIn](https://www.linkedin.com/in/vinicio-desola-jr86/)
     [@GitHub](https://github.com/penpen86)
-
-
-### **Outside instructors**
-Jeff Heaton
-    [LinkedIn](https://www.linkedin.com/in/jeffheaton/)
-    [@GitHub](https://github.com/jeffheaton/t81_558_deep_learning/blob/master/install/tensorflow-install-conda-mac-metal-jul-2022.ipynb)
-    [YouTube](https://www.youtube.com/watch?v=5DgWvU0p2bk)
 
 
 ### **BootCamp teaching assistant**
