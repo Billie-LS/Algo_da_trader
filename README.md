@@ -2,7 +2,7 @@
 # **August 2022 Cohort**
 
 ![image1](images/image1.png)
-## *Module 13, Challenge -  Data Science & Machine Learning - Neural Networks, DeepLearning*
+## *Module 14, Challenge -  Data Science & Machine Learning - Algoritmic Trading, Supervised MachineLearning*
 Objective - Compile and Evaluate a Binary Classification Model using a Neural Network that predicts if applicants will be successful if funded through venture capital firm. 
 
 Scenario - Given a historical dataset CSV file containing more than 34,000 organizations that have received funding, employ neural network knowledge to evaluate dataset features and create a binary classifier model that will predict an applicant will become a successful or failed business.  
@@ -16,6 +16,7 @@ Product - Jupyter notebook with -
 
 ---
 ## **Methods**
+![image2](images/image2.png)
 ### The code script analysis performed uses or employs applications of:
 
     Data encoding with OneHotEncoder, 
