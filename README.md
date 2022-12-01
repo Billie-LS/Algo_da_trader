@@ -191,6 +191,16 @@ ___
 
 [scikitlearn](https://scikit-learn.org/stable/modules/ensemble.html?highlight=classifier)
 
+[Python.land](https://python.land/data-processing/python-yaml)
+
+[PyYAML](https://pyyaml.org/wiki/PyYAMLDocumentation)
+
+[MachineLearningMastery](https://machinelearningmastery.com/save-load-keras-deep-learning-models/)
+
+[MachineLearningMastery](https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/)
+
+[MachineLearningMastery](https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/)
+
 ___
 ## **License**
 
