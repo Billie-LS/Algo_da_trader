@@ -1,0 +1,129 @@
+ 7110  git clone git@github.com:Billie-LS/Algo_da_trader.git
+ 7111  code .
+ 7112  conda activate machine_learn
+ 7113  jupyter lab
+ 7114  git status
+ 7115  git add .
+ 7116  git add *
+ 7117  git commit -m 'draft readme, gitignore, start code reserve, init script'
+ 7118  git push
+ 7119  conda deactivate
+ 7120  conda activate machine_learn
+ 7121  jupyter lab
+ 7122  conda info --envs
+ 7123  conda deactivate
+ 7124  conda activate machine_slearn
+ 7125  jupyter lab
+ 7126  git add .
+ 7127  git add *
+ 7128  git commit -m 'script and visuals'
+ 7129  git push
+ 7130  jupyter lab
+ 7131  git status
+ 7132  git add .
+ 7133  git add *
+ 7134  git commit -m 'script update'
+ 7135  git push
+ 7136  conda deactivate
+ 7137  conda info --envs
+ 7138  conda activate tensorflow
+ 7139  jupyter lab
+ 7140  conda activate tensorflow
+ 7141  pip install hvplot\n
+ 7142  pip install -U imbalanced-learn
+ 7143  conda deactivate
+ 7144  conda activate machine_slearn
+ 7145  jupyter lab
+ 7146  conda activate machine_slearn
+ 7147  pip install seaborn
+ 7148  conda deactivate
+ 7149  conda activate machine_slearn
+ 7150  pip install seaborn
+ 7151  jupyter lab
+ 7152  conda deactivate
+ 7153  conda activate c:\envs\Python395
+ 7154  cd c:\machine_slearn
+ 7155  conda activate machine_learn
+ 7156  jupyter lab
+ 7157  conda deactivate
+ 7158  conda activate machine_learn
+ 7159  pip list
+ 7160  conda deactivate
+ 7161  conda activate machine_slearn
+ 7162  pip ls
+ 7163  pip list
+ 7164  conda activate machine_slearn
+ 7165  jupyter lab
+ 7166  conda deactivate
+ 7167  git add .
+ 7168  git add *
+ 7169  git commit -m 'readme rich content, script refine'
+ 7170  git push
+ 7171  conda deactivate
+ 7172  git status
+ 7173  conda deactivate
+ 7174  git status
+ 7175  cd .
+ 7176  cd Desktop
+ 7177  cd //
+ 7178  cd desktop
+ 7179  cd Desktop
+ 7180  git clone git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-08-2022-U-B.git
+ 7181  git status
+ 7182  conda activate machine_slearn
+ 7183  jupyter lab
+ 7184  conda activate machine_slearn
+ 7185  jupyter lab
+ 7186  git add .
+ 7187  git add *
+ 7188  git commit -m 'readme, readme_report, code refine'
+ 7189  git push
+ 7190  jupyter lab
+ 7191  git add .
+ 7192  git add *
+ 7193  git commit -m 'readme rich content and citations'
+ 7194  git push
+ 7195  conda deactivate
+ 7196  conda activate machine_slearn
+ 7197  jupyter lab
+ 7198  git add .
+ 7199  git add *
+ 7200  git commit -m 'readme completion, code pickle'
+ 7201  git push
+ 7202  conda deactivate
+ 7203  jupyter lab
+ 7204  git add .
+ 7205  git add *
+ 7206  git commit -m 'odds and ends'
+ 7207  git push
+ 7208  conda deactivate
+ 7209  jupyter lab
+ 7210  conda activate machine_slearn
+ 7211  jupyter lab
+ 7212  conda deactivate
+ 7213  git add .
+ 7214  git commit -m 'testing'
+ 7215  git push
+ 7216  jupyter lab
+ 7217  conda activate machine_slearn
+ 7218  jupyter lab
+ 7219  conda activate machine_slearn
+ 7220  jupyter lab
+ 7221  conda activate machine_slearn
+ 7222  sudo pip install h5py
+ 7223  pip install h5py
+ 7224  conda deactivate
+ 7225  pip install h5py
+ 7226  jupyter lab
+ 7227  conda activate machine_slearn
+ 7228  pip install PyYAML
+ 7229  git add .
+ 7230  git add *
+ 7231  git commit -m 'readme update resources, delete script copy'
+ 7232  git push
+ 7233  jupyter lab
+ 7234  conda deactivate
+ 7235  conda activate machine_slearn
+ 7236  jupyter lab
+ 7237  history 6373 > terminal_history.txt
+ 7238  history 6500 > terminal_history.txt
