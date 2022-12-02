@@ -30,6 +30,7 @@ Product - Jupyter notebook with -
     HV plot,
     seaborn heatmaps
     pickle
+    joblib
     
 ---
 ## **Technologies**
@@ -41,7 +42,7 @@ This project leverages Jupyter Lab v3.4.4 and Python version 3.9.13 packaged by 
 
 * [sys](https://docs.python.org/3/library/sys.html) - module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
 
-* [os](https://docs.python.org/3/library/os.html) - module module provides a portable way of using operating system dependent functionality.
+* [os](https://docs.python.org/3/library/os.html) - module provides a portable way of using operating system dependent functionality.
 
 * [NumPy](https://numpy.org/doc/stable/user/absolute_beginners.html) - an open source Python library used for working with arrays, contains multidimensional array and matrix data structures with functions for working in domain of linear algebra, fourier transform, and matrices.
 
@@ -78,6 +79,8 @@ This project leverages Jupyter Lab v3.4.4 and Python version 3.9.13 packaged by 
 * [Seaborn](https://seaborn.pydata.org/tutorial/introduction) a library for making statistical graphics in Python. It builds on top of matplotlib and integrates closely with pandas data structures.
 
 * [pickle](https://docs.python.org/3/library/pickle.html) Python object serialization; module implements binary protocols for serializing and de-serializing a Python object structure. “Pickling” is the process whereby a Python object hierarchy is converted into a byte stream, and “unpickling” is the inverse operation.
+
+* [joblib.dump](https://joblib.readthedocs.io/en/latest/generated/joblib.dump.html) Persist an arbitrary Python object into one file.
 
 ___
 
@@ -132,6 +135,10 @@ machine_learning_trading_algo.ipynb
 
 ```
 
+If 'Resources_models' folder/directory is present, you will need to delete it before running the code or will get an error:
+```python
+FileExistsError: [Errno 17] File exists: 'Resources_models'
+```
 ___
 
 ## **Project requirements**
