@@ -41,6 +41,8 @@ This project leverages Jupyter Lab v3.4.4 and Python version 3.9.13 packaged by 
 
 * [sys](https://docs.python.org/3/library/sys.html) - module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
 
+* [os](https://docs.python.org/3/library/os.html) - module module provides a portable way of using operating system dependent functionality.
+
 * [NumPy](https://numpy.org/doc/stable/user/absolute_beginners.html) - an open source Python library used for working with arrays, contains multidimensional array and matrix data structures with functions for working in domain of linear algebra, fourier transform, and matrices.
 
 * [pandas](https://pandas.pydata.org/docs/) - software library written for the python programming language for data manipulation and analysis.
