@@ -194,6 +194,14 @@ ___
 
 [Stack Overflow](https://stackoverflow.com/questions/43162506/undefinedmetricwarning-f-score-is-ill-defined-and-being-set-to-0-0-in-labels-wi)
 
+[Stack Overflow](https://stackoverflow.com/questions/54879434/how-to-use-pickle-to-save-sklearn-model)
+
+[FolksTalk](https://www.folkstalk.com/tech/how-to-save-a-pickle-file-with-code-examples/)
+
+[PracticalDataScience](https://practicaldatascience.co.uk/machine-learning/how-to-save-and-load-machine-learning-models-using-pickle)
+
+[AnalyticsVidhya](https://www.analyticsvidhya.com/blog/2021/08/quick-hacks-to-save-machine-learning-model-using-pickle-and-joblib/)
+
 [StackAbuse](https://stackabuse.com/scikit-learn-save-and-restore-models/)
 
 [Seaborn](https://seaborn.pydata.org/installing.html)
