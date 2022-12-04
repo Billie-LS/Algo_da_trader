@@ -135,10 +135,11 @@ machine_learning_trading_algo.ipynb
 
 ```
 
-If 'Resources_models' folder/directory is present, you will need to delete it before running the code or will get an error:
+If running the code generates error:
 ```python
 FileExistsError: [Errno 17] File exists: 'Resources_models'
 ```
+You will need to delete directory 'Resources_models'
 ___
 
 ## **Project requirements**
